@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C622090D200E68CE00B03078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622090C200E68CE00B03078 /* AppDelegate.swift */; };
+		C622090F200E68CE00B03078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622090E200E68CE00B03078 /* ViewController.swift */; };
+		C6220912200E68CE00B03078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6220910200E68CE00B03078 /* Main.storyboard */; };
+		C6220914200E68CE00B03078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6220913200E68CE00B03078 /* Assets.xcassets */; };
+		C6220917200E68CE00B03078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6220915200E68CE00B03078 /* LaunchScreen.storyboard */; };
+		C6220922200E68CE00B03078 /* StwickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220921200E68CE00B03078 /* StwickerTests.swift */; };
+		C622092D200E68CE00B03078 /* StwickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622092C200E68CE00B03078 /* StwickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C622091E200E68CE00B03078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6220901200E68CE00B03078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6220908200E68CE00B03078;
+			remoteInfo = Stwicker;
+		};
+		C6220929200E68CE00B03078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6220901200E68CE00B03078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6220908200E68CE00B03078;
+			remoteInfo = Stwicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6220909200E68CE00B03078 /* Stwicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stwicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C622090C200E68CE00B03078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C622090E200E68CE00B03078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6220911200E68CE00B03078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6220913200E68CE00B03078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6220916200E68CE00B03078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6220918200E68CE00B03078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C622091D200E68CE00B03078 /* StwickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StwickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6220921200E68CE00B03078 /* StwickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StwickerTests.swift; sourceTree = "<group>"; };
+		C6220923200E68CE00B03078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6220928200E68CE00B03078 /* StwickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StwickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C622092C200E68CE00B03078 /* StwickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StwickerUITests.swift; sourceTree = "<group>"; };
+		C622092E200E68CE00B03078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6220906200E68CE00B03078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C622091A200E68CE00B03078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6220925200E68CE00B03078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6220900200E68CE00B03078 = {
+			isa = PBXGroup;
+			children = (
+				C622090B200E68CE00B03078 /* Stwicker */,
+				C6220920200E68CE00B03078 /* StwickerTests */,
+				C622092B200E68CE00B03078 /* StwickerUITests */,
+				C622090A200E68CE00B03078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C622090A200E68CE00B03078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6220909200E68CE00B03078 /* Stwicker.app */,
+				C622091D200E68CE00B03078 /* StwickerTests.xctest */,
+				C6220928200E68CE00B03078 /* StwickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C622090B200E68CE00B03078 /* Stwicker */ = {
+			isa = PBXGroup;
+			children = (
+				C622090C200E68CE00B03078 /* AppDelegate.swift */,
+				C622090E200E68CE00B03078 /* ViewController.swift */,
+				C6220910200E68CE00B03078 /* Main.storyboard */,
+				C6220913200E68CE00B03078 /* Assets.xcassets */,
+				C6220915200E68CE00B03078 /* LaunchScreen.storyboard */,
+				C6220918200E68CE00B03078 /* Info.plist */,
+			);
+			path = Stwicker;
+			sourceTree = "<group>";
+		};
+		C6220920200E68CE00B03078 /* StwickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6220921200E68CE00B03078 /* StwickerTests.swift */,
+				C6220923200E68CE00B03078 /* Info.plist */,
+			);
+			path = StwickerTests;
+			sourceTree = "<group>";
+		};
+		C622092B200E68CE00B03078 /* StwickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C622092C200E68CE00B03078 /* StwickerUITests.swift */,
+				C622092E200E68CE00B03078 /* Info.plist */,
+			);
+			path = StwickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6220908200E68CE00B03078 /* Stwicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6220931200E68CE00B03078 /* Build configuration list for PBXNativeTarget "Stwicker" */;
+			buildPhases = (
+				C6220905200E68CE00B03078 /* Sources */,
+				C6220906200E68CE00B03078 /* Frameworks */,
+				C6220907200E68CE00B03078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stwicker;
+			productName = Stwicker;
+			productReference = C6220909200E68CE00B03078 /* Stwicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C622091C200E68CE00B03078 /* StwickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6220934200E68CE00B03078 /* Build configuration list for PBXNativeTarget "StwickerTests" */;
+			buildPhases = (
+				C6220919200E68CE00B03078 /* Sources */,
+				C622091A200E68CE00B03078 /* Frameworks */,
+				C622091B200E68CE00B03078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C622091F200E68CE00B03078 /* PBXTargetDependency */,
+			);
+			name = StwickerTests;
+			productName = StwickerTests;
+			productReference = C622091D200E68CE00B03078 /* StwickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6220927200E68CE00B03078 /* StwickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6220937200E68CE00B03078 /* Build configuration list for PBXNativeTarget "StwickerUITests" */;
+			buildPhases = (
+				C6220924200E68CE00B03078 /* Sources */,
+				C6220925200E68CE00B03078 /* Frameworks */,
+				C6220926200E68CE00B03078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C622092A200E68CE00B03078 /* PBXTargetDependency */,
+			);
+			name = StwickerUITests;
+			productName = StwickerUITests;
+			productReference = C6220928200E68CE00B03078 /* StwickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6220901200E68CE00B03078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = aryzae;
+				TargetAttributes = {
+					C6220908200E68CE00B03078 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C622091C200E68CE00B03078 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6220908200E68CE00B03078;
+					};
+					C6220927200E68CE00B03078 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6220908200E68CE00B03078;
+					};
+				};
+			};
+			buildConfigurationList = C6220904200E68CE00B03078 /* Build configuration list for PBXProject "Stwicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6220900200E68CE00B03078;
+			productRefGroup = C622090A200E68CE00B03078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6220908200E68CE00B03078 /* Stwicker */,
+				C622091C200E68CE00B03078 /* StwickerTests */,
+				C6220927200E68CE00B03078 /* StwickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6220907200E68CE00B03078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6220917200E68CE00B03078 /* LaunchScreen.storyboard in Resources */,
+				C6220914200E68CE00B03078 /* Assets.xcassets in Resources */,
+				C6220912200E68CE00B03078 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C622091B200E68CE00B03078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6220926200E68CE00B03078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6220905200E68CE00B03078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C622090F200E68CE00B03078 /* ViewController.swift in Sources */,
+				C622090D200E68CE00B03078 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6220919200E68CE00B03078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6220922200E68CE00B03078 /* StwickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6220924200E68CE00B03078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C622092D200E68CE00B03078 /* StwickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C622091F200E68CE00B03078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6220908200E68CE00B03078 /* Stwicker */;
+			targetProxy = C622091E200E68CE00B03078 /* PBXContainerItemProxy */;
+		};
+		C622092A200E68CE00B03078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6220908200E68CE00B03078 /* Stwicker */;
+			targetProxy = C6220929200E68CE00B03078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6220910200E68CE00B03078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6220911200E68CE00B03078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6220915200E68CE00B03078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6220916200E68CE00B03078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C622092F200E68CE00B03078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6220930200E68CE00B03078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6220932200E68CE00B03078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U38WFWB5D6;
+				INFOPLIST_FILE = Stwicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.Stwicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C6220933200E68CE00B03078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U38WFWB5D6;
+				INFOPLIST_FILE = Stwicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.Stwicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C6220935200E68CE00B03078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U38WFWB5D6;
+				INFOPLIST_FILE = StwickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.StwickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stwicker.app/Stwicker";
+			};
+			name = Debug;
+		};
+		C6220936200E68CE00B03078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U38WFWB5D6;
+				INFOPLIST_FILE = StwickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.StwickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stwicker.app/Stwicker";
+			};
+			name = Release;
+		};
+		C6220938200E68CE00B03078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U38WFWB5D6;
+				INFOPLIST_FILE = StwickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.StwickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stwicker;
+			};
+			name = Debug;
+		};
+		C6220939200E68CE00B03078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U38WFWB5D6;
+				INFOPLIST_FILE = StwickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.StwickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stwicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6220904200E68CE00B03078 /* Build configuration list for PBXProject "Stwicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C622092F200E68CE00B03078 /* Debug */,
+				C6220930200E68CE00B03078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6220931200E68CE00B03078 /* Build configuration list for PBXNativeTarget "Stwicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6220932200E68CE00B03078 /* Debug */,
+				C6220933200E68CE00B03078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6220934200E68CE00B03078 /* Build configuration list for PBXNativeTarget "StwickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6220935200E68CE00B03078 /* Debug */,
+				C6220936200E68CE00B03078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6220937200E68CE00B03078 /* Build configuration list for PBXNativeTarget "StwickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6220938200E68CE00B03078 /* Debug */,
+				C6220939200E68CE00B03078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6220901200E68CE00B03078 /* Project object */;
+}
